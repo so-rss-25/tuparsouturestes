@@ -47,10 +47,11 @@ Mettre en place un système simple d’utilisation pour les équipes RH :
   * Analyse multi-variée : heatmaps pour repérer les corrélations et analyses complémentaires pour vérifier ou réfuter des hypothèses
 
 * Modélisation (AttriScan)
-  * Sélection des features
-  * Entraînement de plusieurs modèles : Logistic Regression, Random Forest, XGBoost, EDABoost, utilisation d'un SMOTE
+  * Sélection des features et de la target
+  * Entraînement de plusieurs modèles : Logistic Regression, Random Forest, XGBoost, EDABoost
+  * Dataset non équilibré donc utilisation d'un SMOTE
   * Évaluation : accuracy, recall, r2-score, f1-score, optimisation du recall dans notre cas
-  * Modèle final sélectionné : Logisitic Regression, avec un SMOTE
+  * Modèle final sélectionné : Logisitic Regression avec un SMOTE
   * Interprétabilité : SHAP
 
 * Intégration & Outils
